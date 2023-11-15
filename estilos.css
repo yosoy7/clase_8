@@ -1,0 +1,45 @@
+:root{
+    --color: #becdfe;
+    --padding: 10px;
+    --margin: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    margin: 0;
+}
+
+#cabecera{
+    background-color: var(--color) ;
+    padding: var(--padding);
+    margin: var(--margin);
+}
+
+#pie{
+    background-color: var(--color);
+    padding: var(--padding);
+    margin: var(--margin);
+    clear: both;
+}
+
+.columna1,
+.columna2,
+.columna3{
+    background-color: var(--color);
+    width: 280px;
+    float: left;
+    margin: var(--margin);
+    padding: var(--padding);
+    height: 400px;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
